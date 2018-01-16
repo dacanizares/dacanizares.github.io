@@ -10,7 +10,7 @@ Pocas veces en un videojuego había experimentado la indefesión de una forma en
 
 HitchHiker es un prototipo experimental que consigue como pocos hacerte vivir una variedad de emociones que van desde la incomodidad y la confusión hasta la calma y la seguridad, pasando por lo onírico y terminando en lo espeluznante.
 
-Tanto si te gustan las experiencias "extrañas", como si quieres ver un videjuego que intenta explorar las emociones humanas de forma diferente a lo que hemos visto hasta ahora, te recomiendo que te dejes llevar unos minutos por este prototipo que aunque resulta siendo un viaje corto y pulido a medias, consigue calar profundo sus interrogantes y termina por sumergir de lleno en su planteamiento.
+Tanto si te gustan las experiencias cuasi-paranormales, como si quieres ver un videojuego que intenta explorar las emociones humanas de forma diferente a lo que hemos visto hasta ahora, te recomiendo que te dejes llevar unos minutos por este prototipo que aunque resulta siendo un viaje corto y pulido a medias, consigue calar profundo sus interrogantes y termina por sumergir de lleno en su planteamiento.
 
 ![Juego experimental del mes: HitchHiker]({{ site.baseurl }}/images/hitchhiker-juego-experimental-2.jpg)
 
