@@ -12,10 +12,12 @@ HitchHiker es un prototipo experimental que consigue como pocos hacerte vivir un
 
 Tanto si te gustan las experiencias cuasi-paranormales, como si quieres ver un videojuego que intenta explorar las emociones humanas de forma diferente a lo que hemos visto hasta ahora, te recomiendo que te dejes llevar unos minutos por este prototipo que aunque resulta siendo un viaje corto y pulido a medias, consigue calar profundo sus interrogantes y termina por sumergir de lleno en su planteamiento.
 
-![Juego experimental del mes: HitchHiker]({{ site.baseurl }}/images/hitchhiker-juego-experimental-2.png)
-
 ## Enlaces
 
 [Descarga el prototipo](https://www.humblebundle.com/monthly/trove) gratis en HumbleStore hasta el 2 de febrero de 2018
 
 [Sitio oficial](http://hitchhiker-game.com/)
+
+![Juego experimental del mes: HitchHiker]({{ site.baseurl }}/images/hitchhiker-juego-experimental-2.png)
+
+
