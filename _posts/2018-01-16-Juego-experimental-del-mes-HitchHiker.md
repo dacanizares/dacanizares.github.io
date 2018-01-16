@@ -1,6 +1,6 @@
 ---
 published: true
-title: Juego experimental del mes: HitchHiker
+title: Juego experimental del mes - HitchHiker
 layout: post
 ---
 ![Juego experimental del mes: HitchHiker]({{ site.baseurl }}/images/hitchhiker-juego-experimental.PNG)
