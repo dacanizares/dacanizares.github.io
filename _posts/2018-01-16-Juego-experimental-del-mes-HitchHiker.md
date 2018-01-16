@@ -14,4 +14,8 @@ Tanto si te gustan las experiencias cuasi-paranormales, como si quieres ver un v
 
 ![Juego experimental del mes: HitchHiker]({{ site.baseurl }}/images/hitchhiker-juego-experimental-2.png)
 
-[Descarga el prototipo](https://www.humblebundle.com/monthly/trove) gratis hasta el 2 de febrero de 2018
+## Enlaces
+
+[Descarga el prototipo](https://www.humblebundle.com/monthly/trove) gratis en HumbleStore hasta el 2 de febrero de 2018
+
+[Sitio oficial](http://hitchhiker-game.com/)
