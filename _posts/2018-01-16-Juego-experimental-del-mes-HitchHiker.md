@@ -2,6 +2,7 @@
 published: true
 title: Juego experimental del mes - HitchHiker
 layout: post
+tsocurl: http://thescienceofcode.azurewebsites.net/Posts/Show/5a5f97cc3db82e07e4cd3eff
 ---
 ![Juego experimental del mes: HitchHiker]({{ site.baseurl }}/images/hitchhiker-juego-experimental.png)
 
