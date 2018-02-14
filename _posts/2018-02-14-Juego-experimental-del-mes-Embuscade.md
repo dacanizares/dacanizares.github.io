@@ -22,5 +22,5 @@ Embuscade, es en definitiva, un experimento corto y construído bajo altas restr
 
 [Descárgalo en itch.io](https://maxparata.itch.io/embuscade)
 
-![Juego experimental del mes: Embuscade]({{ site.baseurl }}/images/embuscade-2.jng)
+![Juego experimental del mes: Embuscade]({{ site.baseurl }}/images/embuscade-2.jpg)
 
