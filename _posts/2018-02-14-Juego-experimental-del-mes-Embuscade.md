@@ -6,7 +6,7 @@ tsocurl: http://thescienceofcode.azurewebsites.net/Posts/Show/5a8488283e67159cc4
 ---
 ![Juego experimental del mes: Embuscade]({{ site.baseurl }}/images/embuscade.jpg)
 
-"¿En un entorno post-apocalíptico, sobrevivirás o dejarás que el pueblo te coma vivo?" 
+*"¿En un entorno post-apocalíptico, sobrevivirás o dejarás que el pueblo te coma vivo?".* 
 <!--more-->
 
 Este mes revisitamos el miedo en los videojuegos con un experimento que sí bien, se acerca al terror con un enfoque más convencional, no por ello es menos efectivo.
