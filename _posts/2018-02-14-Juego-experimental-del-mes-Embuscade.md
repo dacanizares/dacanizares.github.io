@@ -1,10 +1,10 @@
 ---
 published: true
-title: Juego experimental del mes - HitchHiker
+title: Juego experimental del mes - Embuscade
 layout: post
 tsocurl: http://thescienceofcode.azurewebsites.net/Posts/Show/5a8488283e67159cc4ecfdf8
 ---
-![Juego experimental del mes: Embuscade]({{ site.baseurl }}/images/embuscade.jng)
+![Juego experimental del mes: Embuscade]({{ site.baseurl }}/images/embuscade.jpg)
 
 "¿En un entorno post-apocalíptico, sobrevivirás o dejarás que el pueblo te coma vivo?" 
 <!--more-->
