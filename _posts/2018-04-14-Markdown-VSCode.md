@@ -10,7 +10,7 @@ Con el apogeo de GitHub, en especial de GitHub Pages, Markdown se ha convertido 
 
 Debido a su popularidad, pueden encontrarse muchos editores, sin embargo, no todos ofrecen una experiencia de usuario consistente y otros, como *Typora*, no son **open-source**, por lo que en cualquier momento podrían volverse de pago.
 
-En ese órden de ideas, estuve buscando opciones, y la mejor que he encontrado es una extensión para **VS Code**, el poderoso editor **open-source** de *Microsoft*. La extensión, que a propósito está recién publicada por el gigante de Redmond, es una colección de paquetes que utiliza *Microsoft* para generar los documentos de *docs.microsoft.com*. Incluye herramientas para *resaltado de sintaxis*, *correción de estilo* y *previsualización en tiempo real* de documentos **Markdown**.
+En ese órden de ideas, estuve buscando opciones, y la mejor que he encontrado es una extensión para **VS Code**, el poderoso editor **open-source** de *Microsoft*. La extensión, que a propósito está recién publicada por el gigante de Redmond, es una colección de paquetes que utiliza *Microsoft* para generar los documentos de *docs.microsoft.com*. Incluye herramientas para *resaltado de sintaxis*, *corrección de estilo* y *previsualización en tiempo real* de documentos **Markdown**.
 
 ![alt text][previewtool]
 
