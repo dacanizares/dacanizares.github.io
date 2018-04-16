@@ -26,4 +26,4 @@ Como profesor siempre defendí mi postura con respecto a la programación, y aun
 
 Para terminar, quiero compartir las palabras del programador y exprofesor Ricardo Galli.
 
-> "No te adelantes, no te dejes seducir por puestos de dirección, gestión o representación.** durante los primeros 20 años de carrera sólo **preocúpate de aprender y practicar** para ser un experto de élite en el área en que estás trabajando. Cuando la domines creerás que lo sabes todo pero en realidad no sabes nada, aprende una nueva y repite el proceso: **ganarás tanta humildad como conocimiento**".
+> "**No te adelantes, no te dejes seducir por puestos de dirección, gestión o representación.** durante los primeros 20 años de carrera sólo **preocúpate de aprender y practicar** para ser un experto de élite en el área en que estás trabajando. Cuando la domines creerás que lo sabes todo pero en realidad no sabes nada, aprende una nueva y repite el proceso: **ganarás tanta humildad como conocimiento**".
