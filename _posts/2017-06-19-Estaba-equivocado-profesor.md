@@ -1,6 +1,6 @@
 ---
 published: true
-title: Estaba equivocado: cosas que dije como profesor
+title: Estaba equivocado - cosas que dije como profesor
 layout: post
 tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/594862173e67156b40807c39
 ---
