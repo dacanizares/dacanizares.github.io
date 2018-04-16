@@ -14,7 +14,7 @@ Este último año ha sido vertiginoso para mi a nivel profesional: el fracaso, e
 
 Tuve la fortuna de aprender a programar relativamente bien. Cuando hablo con mis estudiantes me preguntan cómo lo conseguí, y la verdad no tengo la respuesta, ¿azar o destino? Eso no importa, al fin y al cabo **lo único que cuenta es que más gente pueda aprender** a hacerlo también, y que el día de mañana puedan aspirar, como muchos programadores del mundo, **a tener una mejor calidad de vida, para ellos y sus familias**.
 
-#¡Llamado a la acción!
+# ¡Llamado a la acción!
 
 *The Science of Code* se ha caracterizado por criticar los métodos tradicionales del desarrollo y enseñanza de la programación de ordenadores, y aunque no vamos a empezar a autocensurarnos, creo que no hemos hecho lo suficiente por enseñar otras formas de realizar las cosas. Es hora de empezar una nueva etapa en este proyecto, pero necesitamos de su apoyo: **la invitación es para todos los que quieran enseñar algo sobre programación**, para que generen contenidos gratuitos y de calidad que podamos compartir, porque **creemos que el dinero no puede seguir siendo una barrera para acceder al conocimiento**.
 
