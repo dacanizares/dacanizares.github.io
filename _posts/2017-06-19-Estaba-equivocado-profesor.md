@@ -4,7 +4,7 @@ title: Estaba equivocado: cosas que dije como profesor
 layout: post
 tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/594862173e67156b40807c39
 ---
-![De los estándares y otros males de la academia]({{ site.baseurl }}/images/equivocado-profesor.png)
+![De los estándares y otros males de la academia]({{ site.baseurl }}/images/equivocado-profesor.jpg)
 
 {:.img-footer}
 [Photo By Brendan Church (CC0)](https://unsplash.com/search/photos/ways){:target='_blank'}
