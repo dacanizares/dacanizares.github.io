@@ -5,6 +5,8 @@ layout: post
 license: ccby
 ---
 
+![Markdown VS Code]({{ site.baseurl }}/images/MD-VSCODE.png)
+
 Con el apogeo de GitHub, en especial de GitHub Pages, Markdown se ha convertido en el estándar de facto que usan los programadores para dar formato a sus documentos. Su sintaxis clara y simple, sumado a su versatilidad, le han permitido abrirse un espacio en tareas que van desde la construcción de las wikis de los repositorios hasta escribir blogs o websites simples.
 <!--more-->
 
