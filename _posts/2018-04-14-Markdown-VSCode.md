@@ -22,8 +22,8 @@ A continuación les comparto los enlaces para que puedan descargarlo y probarlo 
 
 ## Enlaces
 
-* [VS Code](https://code.visualstudio.com/)
-* [Extensión: Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
-* [Anuncio de Microsoft sobre el lanzamiento de la extensión](https://docs.microsoft.com/en-us/teamblog/docs-extension)
+* [VS Code](https://code.visualstudio.com/){:target='_blank'}
+* [Extensión: Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack){:target='_blank'}
+* [Anuncio de Microsoft sobre el lanzamiento de la extensión](https://docs.microsoft.com/en-us/teamblog/docs-extension){:target='_blank'}
 
 [previewtool]: https://docs.microsoft.com/en-us/teamblog/media/docs-extension/preview.gif "Editando Markwdown en VSCode"
