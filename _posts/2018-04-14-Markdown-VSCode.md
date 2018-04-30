@@ -3,6 +3,7 @@ published: true
 title: Editando Markdown en VSCode
 layout: post
 license: ccby
+tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5adb8b3e44064a569c8130ac
 ---
 
 ![Markdown VS Code]({{ site.baseurl }}/images/MD-VSCODE.png)
