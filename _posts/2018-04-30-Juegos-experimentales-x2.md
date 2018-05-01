@@ -31,9 +31,9 @@ El concepto final es la mar de divertido, ya que ha resultado una suerte de **Pa
 
 El segundo juego de hoy, es un experimento *narrativo* que ha venido ganando popularidad en *Steam*. Es una experiencia a nivel artístico muy pulida (para ser gratuita), pero a nivel de mecánicas es un fallido intento por escapar del cliché del *walking-simulator*, que termina convirtiendose en un *"pixel-hunt"* en 3-Dimensiones.
 
-Sin embargo, **Marie's Room** no deja de ser una experiencia que te pone a reflexionar sobre las posibilidades del *videojuego*, sobre cómo contar una historia restringiendo al máximo el espacio y las interacciones del jugador, sobre cómo se pueden transmitir emociones profundas al jugador, sobre cómo crear un universo y transportar al jugador a un mundo diferente que vive dentro de un pequeño cuarto.
+Sin embargo, **Marie's Room** no deja de ser una experiencia memorable que reflexiona sobre las posibilidades del *videojuego*, que se pregunta cómo se puede contar una historia restringiendo al máximo el espacio y las interacciones, que se plantea cómo se pueden transmitir emociones profundas al jugador, que explora cómo transportar al jugador a un universo completo que vive dentro de un pequeño cuarto.
 
-**Marie's Room** es pulido artísticamente pero insulso a nivel mecánico, es corto pero trascendental al mismo tiempo, es sólo una habitación en un entorno 3D, pero está lleno de vida, de recuerdos, de emociones.
+**Marie's Room** es insulso a nivel mecánico pero pulido artísticamente, es corto pero trascendental al mismo tiempo, es sólo una habitación en un entorno 3D, pero está lleno de vida, de recuerdos, de emociones.
 
 ### Descarga
 
