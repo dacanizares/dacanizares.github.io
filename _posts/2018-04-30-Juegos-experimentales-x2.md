@@ -11,19 +11,19 @@ El mes pasado fue bastante convulsionado por unos cambios en mi trabajo y por el
 
 <!--more-->
 
-## Concurse X-Ray
+## Concourse X-Ray
 
 ![Concurse X-Ray]({{ site.baseurl }}/images/concurse-xray.jpg)
 
 Este es un experimento centrado en la exploración de *mecánicas de juego*. El planteamiento es simple: somos un guardia de seguridad de un aeropuerto y debemos evitar que los pasajeros ingresen con objetos prohibidos a sus vuelos.
 
-El concepto final es la mar de divertido, ya que ha resultado una suerte de **Papers Please** en 3-Dimensiones, con menos procedimientos burocráticos y más acción. En **Concurse X-Ray** vienen oleadas de viajeros que escoden todo tipo de objetos entre su ropa. Nuestra misión es revisarlos usando unas gafas de rayos-x que ocupan una fracción de la pantalla, mientras todo se mueve en un pequeño entorno 3D, lo que añade emoción a la situación que se torna confusa e hilarante mientras tratas de llevar el control de los personajes que ya has revisado y los que aún no.
+El concepto final es la mar de divertido, ya que ha resultado una suerte de **Papers Please** en 3-Dimensiones, con menos procedimientos burocráticos y más acción. En **Concourse X-Ray** vienen oleadas de viajeros que escoden todo tipo de objetos entre su ropa. Nuestra misión es revisarlos usando unas gafas de rayos-x que ocupan una fracción de la pantalla, mientras todo se mueve en un pequeño entorno 3D, lo que añade emoción a la situación que se torna confusa e hilarante mientras tratas de llevar el control de los personajes que ya has revisado y los que aún no.
 
 ¿Lograras detener a los listillos que tratan de llevar objetos prohibidos entre su ropa? ¿O perderás el control de la situación intentado revisar la estampida de viajeros que tratan de subir al avión?
 
 ### Descarga
 
-* [Concurse X-Ray en Itch.io](https://andyman404.itch.io/concourse-x-ray){:target='_blank'}
+* [Concourse X-Ray en Itch.io](https://andyman404.itch.io/concourse-x-ray){:target='_blank'}
 
 ## Marie's Room
 
@@ -41,5 +41,5 @@ Sin embargo, **Marie's Room** no deja de ser una experiencia memorable que refle
 
 ## Enlaces
 
-* Descarga: [Concurse X-Ray en Itch.io](https://andyman404.itch.io/concourse-x-ray){:target='_blank'}
+* Descarga: [Concourse X-Ray en Itch.io](https://andyman404.itch.io/concourse-x-ray){:target='_blank'}
 * Descarga: [Marie's Room en Steam](https://store.steampowered.com/app/648390/Maries_Room/){:target='_blank'}
