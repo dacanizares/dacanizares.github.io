@@ -9,7 +9,7 @@ tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/54f950421a28751
 {:.img-footer}
 [Photo under Public Domain](https://unsplash.com/photos/Q1p7bh3SHj8){:target='_blank'}
 
-En 1993 John Carmack y su equipo es **id** publicaron **Doom**, el juego que cambio para siempre la computación. En los equipos de aquella época, con todas sus limitaciones técnicas y su reducida capacidad de cómputo, Carmack logró renderizar gráficos tridimensionales en tiempo real. El secreto para conseguirlo fue un intrincado algoritmo que de forma eficiente permitía representar y dibujar los entornos tridimensionales. Para comprender qué hace a un algoritmo **eficiente**, hoy nos introduciremos en la **Complejidad Computacional**.
+En 1993 John Carmack y su equipo en **id** publicaron **Doom**, el juego que cambio para siempre la computación. En los equipos de aquella época, con todas sus limitaciones técnicas y su reducida capacidad de cómputo, Carmack logró renderizar increíbles gráficos tridimensionales en tiempo real. El secreto para conseguirlo fue un intrincado algoritmo que de forma eficiente permitía representar y dibujar los entornos 3D. Para comprender qué hace a un algoritmo **eficiente**, en esta serie de **Programación en 15 minutos** nos introduciremos a la **Complejidad Computacional**.
 <!--more-->
 
 # Ejemplo práctico
@@ -62,10 +62,10 @@ Para la prueba hemos puesto a correr ambos algoritmos en un procesador *i7*, pon
 
 Cómo podemos ver, a medida que aumenta el tamaño de la entrada, se hace mayor la diferencia entre los tiempos de respuesta de los algoritmos. Quizá para datos pequeños no sea muy notable, pero a medida que aumenta la complejidad de la operación, cada vez es más evidente que el *Algoritmo 1* es mucho **menos eficiente** que el *Algoritmo 2*.
 
-Para nuestro caso, el tamaño de la entrada es un simple número, pero si estuvieramos hablando en términos reales podríamos estar refiriéndonos por ejemplo a:
+Para nuestro caso, el tamaño de la entrada es un simple número, pero si estuvieramos hablando en términos reales podríamos estar refiriéndonos, por citar un par de ejemplos, a:
 
-* **El número de usuarios conectados a una aplicación web**: Quizá una aplicación poco eficiente funcione bien con cientos de usuarios concurrentes, pero a medida que aumente esa cifra a miles o incluso millones de usuario, hará que el sistema colápse.
+* **El número de usuarios conectados a una aplicación web**: Quizá una aplicación poco eficiente funcione bien con cientos de usuarios concurrentes, pero a medida que aumente esa cifra a miles o incluso millones de usuarios, el sistema terminará por colapsar.
 
-* **Cálculos de efectos visuales para un juego**: si vamos a hacer un juego con gráficos simples es posible que un algoritmo poco eficiente para pintar las imagenes en la pantalla funcione bien, pero si queremos calcular sombras e iluminación en tiempo real en un entorno 3D, una solución poco elaborada hará que toda la visalización cargue lento y que no se aprevechen bien todos los recursos de la máquina.
+* **Cálculos de efectos visuales para un juego**: Para construir un juego con gráficos simples es posible que un algoritmo poco eficiente sea suficiente como para pintar las imagenes en la pantalla y que todo se vea relativamente vien, pero si queremos calcular sombras e iluminación en tiempo real en un entorno 3D, una solución poco elaborada hará que toda la visalización cargue lento, que no se aprevechen bien todos los recursos de la máquina y que al final la experiencia termine yéndose al traste.
 
 Así pues, tanto si queremos crear experiencias de tiempo real complejas, como si queremos que nuestras aplicaciones escalen correctamente, es muy importante conocer herramientas que nos permitan analizar el comportamiento de los algoritmos. Una de esas herramienta es la **Complejidad Computacional** y durante las próximas entregas aprenderemos de qué va todo esto. ¡Hasta la próxima!
