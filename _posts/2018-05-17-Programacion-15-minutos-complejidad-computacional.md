@@ -9,7 +9,7 @@ tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5afe49c93e67156
 {:.img-footer}
 [Photo under Public Domain](https://unsplash.com/photos/Q1p7bh3SHj8){:target='_blank'}
 
-En 1993 John Carmack y su equipo en **id** publicaron **Doom**, el juego que cambio para siempre la computación. En los equipos de aquella época, con todas sus limitaciones técnicas y su reducida capacidad de cómputo, Carmack logró renderizar increíbles gráficos tridimensionales en tiempo real. El secreto para conseguirlo fue un intrincado algoritmo que de forma eficiente permitía representar y dibujar los entornos 3D. Para comprender qué hace a un algoritmo **eficiente**, en esta serie de **Programación en 15 minutos** nos introduciremos a la **Complejidad Computacional**.
+En 1993 John Carmack y su equipo en **id software** publicaron **Doom**, el juego que cambio para siempre la computación. En los equipos de aquella época, con todas sus limitaciones técnicas y su reducida capacidad de cómputo, Carmack logró renderizar increíbles gráficos tridimensionales en tiempo real. El secreto para conseguirlo fue un intrincado algoritmo que de forma eficiente permitía representar y dibujar los entornos 3D. Para comprender qué hace a un algoritmo **eficiente**, en esta serie de **Programación en 15 minutos** nos introduciremos a la **Complejidad Computacional**.
 <!--more-->
 
 # Ejemplo práctico
