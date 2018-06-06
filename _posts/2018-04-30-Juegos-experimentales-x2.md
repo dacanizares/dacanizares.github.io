@@ -37,9 +37,11 @@ Sin embargo, **Marie's Room** no deja de ser una experiencia memorable que refle
 
 ### Descarga
 
+* [Marie's Room en Itch.io](https://kennyguillaume.itch.io/maries-room){:target='_blank'}
 * [Marie's Room en Steam](https://store.steampowered.com/app/648390/Maries_Room/){:target='_blank'}
 
 ## Enlaces
 
 * Descarga: [Concourse X-Ray en Itch.io](https://andyman404.itch.io/concourse-x-ray){:target='_blank'}
+* Descarga: [Marie's Room en Itch.io](https://kennyguillaume.itch.io/maries-room){:target='_blank'}
 * Descarga: [Marie's Room en Steam](https://store.steampowered.com/app/648390/Maries_Room/){:target='_blank'}
