@@ -5,6 +5,6 @@ permalink: /about/
 published: true
 ---
 
-¡Hola! Mi nombre es Daniel y soy programador, este es mi blog personal dónde escribo sobre programación, videojuegos y hago críticas sobre temas que me apasionan. Actualmente trabajo como programador senior .Net en una compañía de software.
+¡Hola! Mi nombre es Daniel y soy programador, este es mi blog personal dónde escribo sobre programación, videojuegos y hago críticas sobre temas que me apasionan. Actualmente soy programador senior .Net en una [compañía de software en Colombia](https://www.linkedin.com/in/dacanizares/){:target='_blank'}.
 
-Junto con mi hermano soy cofundador de [The Science of Code](http://www.thescienceofcode.com){:target='_blank'} y de Equilaterus, dónde él y un equipo de programadores están desarrollando soluciones [**open-source**](https://github.com/equilaterus/){:target='_blank'} así cómo algunos [videojuegos indie](http://equilaterus.com/Home/Games){:target='_blank'}.
+Junto con mi hermano soy cofundador de [The Science of Code](http://www.thescienceofcode.com){:target='_blank'} y de Equilaterus, dónde desarrollamos software [**open-source**](o){:target='_blank'} así cómo algunos [videojuegos indie](https://equilaterus.itch.io/){:target='_blank'}.
