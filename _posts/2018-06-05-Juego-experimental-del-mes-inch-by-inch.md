@@ -19,6 +19,6 @@ En el juego eres un científico que debe mezclar elementos en su laboratorio, pa
 
 ## Enlaces
 
-* Descarga: [Inch by Inch en itch.io(https://dare-looks.itch.io/inch-by-inch){:target='_blank'}
+* Descarga: [Inch by Inch en itch.io](https://dare-looks.itch.io/inch-by-inch){:target='_blank'}
 
 ![Juego experimental del mes Inch by Inch]({{ site.baseurl }}/images/inch-by-inch-2.jpg)
