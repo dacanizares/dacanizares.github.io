@@ -11,6 +11,8 @@ tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5afe49c93e67156
 
 En este capítulo nos valdremos de un problema clásico de la computación para introducirnos de lleno en el análisis de algoritmos.
 
+<!--more-->
+
 # Órdenes de crecimiento
 
 Para hablar de **Complejidad Computacional**, es necesario comprender el concepto de **órdenes de crecimiento**.
