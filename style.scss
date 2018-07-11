@@ -269,7 +269,7 @@ nav {
     padding: 0.1em 1em;
     color: $gray;
     font-size: 17px;
-    background-color: #e2e2e2;
+    background-color: #fbfbfb;
   }
 
   .comments {
@@ -279,13 +279,13 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
-    background-color: #ddd;
+    background-color: #aaa;
     padding: 10px;
     border-radius: 5px;
     color: #fff;
     
     &:hover {
-	background-color: #aaa;
+	background-color: #4183C4;
     }
   }
 }
