@@ -2,7 +2,7 @@
 published: true
 title: Programación en 15 minutos - Complejidad Computacional (Parte 2)
 layout: post
-tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5afe49c93e671569ac7d12fe
+tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5b4575cf407d6f33cc0e9d88
 ---
 ![Programación en 15 minutos - Complejidad Computacional 2]({{ site.baseurl }}/images/complexity-2.jpg)
 
