@@ -144,7 +144,7 @@ En general, un algoritmo de **Complejidad Logarítmica** es preferible, dado que
 
 Por su parte, un algoritmo de **Complejidad Lineal** tendrá un buen desempeño, inclusive en aplicaciones de tiempo real como videojuegos, siempre y cuando el tamaño de la entrada sea moderado.
 
-> En general, un algoritmo que para una entrada de tamaño **n** toma aproximadamente **f(n)** pasos en encontrar la respuesta, donde **f(n)** es un función matemática cualquiera,  lo representamos como **O(f(n))**.
+> En general, un algoritmo que para una entrada de tamaño **n** toma aproximadamente **f(n)** pasos en encontrar la respuesta, donde **f(n)** es una función matemática cualquiera,  lo representamos como **O(f(n))**.
 
 En el próximo capítulo veremos cuáles son las principales funciones que nos podemos encontrar como programadores.
 
