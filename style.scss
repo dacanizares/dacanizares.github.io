@@ -248,6 +248,19 @@ nav {
   }
 }
 
+.btn {
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: #aaa;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  
+  &:hover {
+    background-color: #4183C4;
+  }
+}
+
 //
 // .main
 //
@@ -274,19 +287,6 @@ nav {
 
   .comments {
     margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-    background-color: #aaa;
-    padding: 10px;
-    border-radius: 5px;
-    color: #fff;
-    
-    &:hover {
-	background-color: #4183C4;
-    }
   }
 }
 

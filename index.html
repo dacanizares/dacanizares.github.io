@@ -13,10 +13,11 @@ published: true
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Seguir leyendo</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="btn">Seguir leyendo</a>
     </article>
   {% endfor %}
 
-  <h1><a href="{{ site.baseurl }}/archive" class="read-more">Publicaciones anteriores</a></h1>
+  <h1>Publicaciones anteriores</h1>
+  <a href="{{ site.baseurl }}/archive" class="btn">Ir al archivo</a>
 </div>
 
