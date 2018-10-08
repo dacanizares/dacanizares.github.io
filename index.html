@@ -4,7 +4,7 @@ published: true
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -16,4 +16,8 @@ published: true
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Seguir leyendo</a>
     </article>
   {% endfor %}
+
+  <h1>Publicaciones anteriores</h1>
+  <a href="{{ site.baseurl }}/archive" class="read-more">Ir al archivo</a>
 </div>
+
