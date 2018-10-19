@@ -10,7 +10,7 @@ div.highlight {
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-family: 'Consolas','Bitstream Vera Sans Mono','Courier', monospace;
 }
 
 .highlight .c { color: #00641c } /* Comment */
@@ -46,7 +46,7 @@ code {
 .highlight .m { color: #000 } /* Literal.Number */
 .highlight .s { color: #b31d15 } /* Literal.String */
 .highlight .na { color: #000 } /* Name.Attribute */
-.highlight .nb { color: #B58900 } /* Name.Builtin */
+.highlight .nb { color: #000 } /* Name.Builtin */
 .highlight .nc { color: blue } /* Name.Class */
 .highlight .no { color: blue } /* Name.Constant */
 .highlight .nd { color: #000 } /* Name.Decorator */
