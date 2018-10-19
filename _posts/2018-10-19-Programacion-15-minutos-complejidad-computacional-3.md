@@ -34,13 +34,9 @@ Este tipo de soluciones son deseables ya que en términos generales podemos deci
 
 ## Crecimiento logarítmico
 
-<center>
-
 | ![Binaria](https://theproductiveprogrammer.blog/013/binary-search.png) |
 | :--: |
 | *Imagen de [Top Coder](https://www.topcoder.com/blog/binary-stride-a-variant-on-binary-search/){:target='_blank'}. Usada sólo con fines educativos.*  |
-
-</center>
 
 > Cuando un algoritmo en cada iteración descarta la mitad, un tercio o en general una fraccion de las posibles soluciones, decimos que tiene una complejidad logarítmica, que está representada por **O(log_b(n))**.
 
@@ -73,13 +69,9 @@ Este tipo de funciones aparecen cuando tenemos que iterar 1, 2 o en general, una
 
 * **O(n²)**: Se da cuando tenemos que realizar aproximadamente n² operaciones. Por ejemplo,
 
-<center>
-
   | ![Bubble sort](https://upload.wikimedia.org/wikipedia/commons/archive/5/54/20140912160203%21Sorting_bubblesort_anim.gif) |
   | :--: | 
   | *Bubble Sort [Wikipedia CC-BY-SA](https://commons.wikimedia.org/wiki/File:Sorting_bubblesort_anim.gif){:target='_blank'}* |
- 
- </center>
 
     
   
@@ -97,13 +89,9 @@ Este tipo de soluciones funcionan muy bien en aplicaciones de tiempo real (como 
 
 > Cuando un algoritmo realiza **n** veces un procediento de tiempo **logarítmico** obtener la respuesta, decimos que tiene una complejidad pseudo-logarítmica, que está representada por **O(nlog(n))**
 
-<center>
-
 | ![Quicksort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif) |
 | :--: |
 | *Quick sort [Wikipedia CC-BY-SA](https://en.wikipedia.org/wiki/Quicksort#/media/File:Sorting_quicksort_anim.gif){:target='_blank'}* |
-
-</center>
 
 * Merge Sort
 
@@ -121,13 +109,9 @@ Este tipo de soluciones tiene un comportamiento relativamente similar al de la c
 
 Por lo general esto se produce cuando en cada paso, en vez de reducirse la cantidad de respuestas posibles, se van duplicando, triplicando... es decir, lo contrario a una solución logarítmica. 
 
-<center>
-
 | ![Brute force](https://upload.wikimedia.org/wikipedia/commons/2/2b/Bruteforce.gif) |
 | :--: |
-| Ejemplo de una fuerza bruta contra un algoritmo mejor optimizado. [Wikipedia CC-BY-SA](https://es.m.wikipedia.org/wiki/Archivo:Bruteforce.gif) |
-
-</center>
+| Ejemplo de una fuerza bruta contra un algoritmo mejor optimizado. [Wikipedia CC-BY-SA](https://es.m.wikipedia.org/wiki/Archivo:Bruteforce.gif)
 
 * Algoritmos de fuerza bruta, es decir, en los que se prueban todos los posibles caminos para ver cuál de ellos lleva a la respuesta correcta.
 
