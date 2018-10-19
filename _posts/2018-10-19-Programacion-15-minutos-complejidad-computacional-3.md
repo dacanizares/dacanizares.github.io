@@ -53,7 +53,7 @@ Este tipo de soluciones también escalan correctamente y por lo general tienen m
 
 ## Funciones de crecimiento lineal
 
-> Cuando un algoritmo  itera una cantidad lineal (https://es.wikipedia.org/wiki/Funci%C3%B3n_lineal) de veces sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad lineal, que está representada por **O(n^c)**
+> Cuando un algoritmo  itera una cantidad [lineal](https://es.wikipedia.org/wiki/Funci%C3%B3n_lineal){:target='_blank'} de veces sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad lineal, que está representada por **O(n^c)**
 
 * **O(n)**: Se cuando **iteramos** una única vez sobre la entrada o una **cantidad constante de veces**.
   
