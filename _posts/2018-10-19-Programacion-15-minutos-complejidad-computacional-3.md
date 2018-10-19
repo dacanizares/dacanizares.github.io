@@ -14,9 +14,10 @@ En este capítulo exploraremos las diferentes funciones de crecimiento que proba
 
 <!--more-->
 
+
 # Órdenes de crecimiento más comunes
 
-Si bien la **Notación Big O** puede utilizarse con cualquier función matemática, como programadores lo más común es encontrarse con alguna de las siguientes funciones:
+Si bien la **Notación Big O** puede utilizarse con cualquier función matemática, como programadores lo más común es encontrarse con alguna de los siguientes casos:
 
 ## Crecimiento constante
 
@@ -52,11 +53,9 @@ Este tipo de soluciones también escalan correctamente y por lo general tienen m
 
 ## Funciones de crecimiento lineal
 
-> Cuando un algoritmo  itera una cantidad constante de veces sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad lineal, que está representada por **O(n^c)**
+> Cuando un algoritmo  itera una cantidad lineal (https://es.wikipedia.org/wiki/Funci%C3%B3n_lineal) de veces sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad lineal, que está representada por **O(n^c)**
 
-Este tipo de funciones aparecen cuando tenemos que iterar 1, 2 o en general, una cantidad constante de veces sobre los datos para encontrar la respuesta.
-
-* **O(n)**: Cuando iteramos una única vez sobre la entrada.
+* **O(n)**: Se cuando **iteramos** una única vez sobre la entrada o una **cantidad constante de veces**.
   
   * Búsqueda lineal.
 
@@ -67,7 +66,7 @@ Este tipo de funciones aparecen cuando tenemos que iterar 1, 2 o en general, una
   * Este problema de Code Forces [Police Recruits](https://codeforces.com/contest/427/problem/A){:target='_blank'}  
 
 
-* **O(n²)**: Se da cuando tenemos que realizar aproximadamente n² operaciones. Por ejemplo,
+* **O(n²)**: Se da cuando tenemos que realizar **aproximadamente** n² operaciones. Por ejemplo,
 
   | ![Bubble sort](https://upload.wikimedia.org/wikipedia/commons/archive/5/54/20140912160203%21Sorting_bubblesort_anim.gif) |
   | :--: | 
@@ -111,14 +110,14 @@ Por lo general esto se produce cuando en cada paso, en vez de reducirse la canti
 
 | ![Brute force](https://upload.wikimedia.org/wikipedia/commons/2/2b/Bruteforce.gif) |
 | :--: |
-| Ejemplo de una fuerza bruta contra un algoritmo mejor optimizado. [Wikipedia CC-BY-SA](https://es.m.wikipedia.org/wiki/Archivo:Bruteforce.gif)
+| Ejemplo gráfico de un algoritmo de fuerza bruta. [Wikipedia CC-BY-SA](https://es.m.wikipedia.org/wiki/Archivo:Bruteforce.gif)
 
 * Algoritmos de fuerza bruta, es decir, en los que se prueban todos los posibles caminos para ver cuál de ellos lleva a la respuesta correcta.
 
 * Este problema de Code Forces: [Shower Line](https://codeforces.com/contest/431/problem/B){:target='_blank'}
 
 
-Este tipo de respuestas son fáciles de encontrar y de programar, pero tienen graves problemas de desempeño ya que la cantidad de pasos con respecto al tamaño de la entrada escala muy rápidamente.
+Este tipo de respuestas son fáciles de encontrar y de programar, pero tienen graves problemas de desempeño ya que la cantidad de pasos para encontrar la respuesta crece muy rápidamente.
 
 ## Comentarios finales de este capítulo
 
