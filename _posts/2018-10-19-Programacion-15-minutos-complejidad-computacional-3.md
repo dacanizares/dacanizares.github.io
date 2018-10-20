@@ -231,6 +231,6 @@ Por otro lado, cuando hablamos de programa reales los límites son aún más dif
 
 > **Pro tip:** se debería practicar los problemas sugeridos, pasar de largo por todos estos conceptos no es suficiente para interiorizalos. Al pricipio pueden parecer difíciles y quizá en ocasiones sea necesario recurrir a las soluciones de otros, pero estudiarlas a conciencia e intentar llegar a respuestas propias, es la mejor forma de mejorar como programadores.
 
-En el próximo capítulo veremos cómo determinar la complejidad de un algoritmo nada más dando un vistazo al código fuente.
+En el siguiente capítulo veremos cómo determinar la complejidad de un algoritmo nada más dando un vistazo al código fuente.
 
 ¡Hasta la próxima!
