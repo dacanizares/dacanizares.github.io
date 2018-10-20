@@ -214,12 +214,16 @@ Este tipo de respuestas son **relativamente** fáciles de encontrar y de program
 
 En la siguiente tabla podemos ver la cantidad de pasos que debería realizar un algoritmo de cada órden de crecimiento para dar la respuesta correcta a una entrada de tamaño **n**, en el peor de los casos:
 
-| Tamaño de la entrada (n) | O(1) | O(log(n) | O(n)     | O(n log(n) | O(n²)          | O(2^n)         |
-|---------                 |------|--------  |----------|------------|----------------|----------------|
-|10                        | 1    |  4       |10        |40          | 100            | 1024           |
-|1,000                     | 1    |  10      |1,000     |10,000      | 1'000,000      | 1,071 x 10^310 |  
-|100,000                   | 1    |  17      |100,000   |1'700,000   | 10 mil millones| Desbordamiento |
-|1,000,000                 | 1    |  20      |1,000,000 |20'000,000  | 10 billones    | Desbordamiento |  
+|                 | 10   | 1,000          |100,000          | 1'000,000      |
+|:----------------|:----:|:--------------:|:---------------:|:--------------:|
+| **O(1)**        | 1    | 1              | 1               | 1              |
+| **O(log(n))**   | 4    | 10             | 17              | 20             |
+| **O(n)**        | 10   | 1,000          | 100,000         | 1,000,000      |
+| **O(n log(n))** | 40   | 10,000         | 1,700,000       | 20'000,000     |
+| **O(n²)**       | 100  | 1'000,000      | 10 mil millones | 10 billones    |
+| **O(2^n)**      | 1024 | 1,071 x 10^310 | Desbordamiento  | Desbordamiento |
+
+
 
 Como podemos ver, algunos valores escalan tan rápidamente que incluso en computadores modernos es imposible calcularlos. Así que la próxima vez, antes de sentarse a programar es bueno tener en consideranción todo lo que hemos aprendido sobre **Complejidad Computacional** para garantizar que nuestros algoritmos no sólo funcionan si no que lo hacen de forma eficiente.
 
