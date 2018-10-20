@@ -14,6 +14,7 @@ En este capítulo exploraremos las principales funciones de crecimiento que pode
 
 <!--more-->
 
+> Este capítulo será un poco más largo de lo normal, pero prefiero no dividirlo en dos partes, para no romper con la estructura lógica que agrupa los conceptos que hoy vamos a aprender. ¿Listos? ¡Vamos!
 
 # Órdenes de crecimiento más comunes
 
@@ -170,7 +171,7 @@ En esta categoria, el número de pasos con respecto al tamaño de la entrada com
 
 ## Crecimiento pseudo-logarítmico
 
-> Cuando un algoritmo realiza **n** veces un procediento de tiempo **logarítmico** obtener la respuesta, decimos que tiene una complejidad pseudo-logarítmica, que está representada por **O(nlog(n))**
+> Cuando un algoritmo realiza **n** veces un procediento de tiempo **logarítmico** para obtener la respuesta, decimos que tiene una complejidad pseudo-logarítmica, que está representada por **O(nlog(n))**
 
 | ![Quicksort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif) |
 | :--: |
@@ -186,17 +187,33 @@ Este tipo de soluciones tiene un comportamiento relativamente similar, aunque me
 
 > Cuando un algoritmo realiza **2^n**, **3^n** o en general **C^n** pasos para obtener la respuesta, decimos que tiene una complejidad exponencial, que está representada por **O(C^n)**
 
-Por lo general esto se produce cuando en cada paso, en vez de reducirse la cantidad de respuestas posibles, se van duplicando, triplicando... es decir, lo contrario a una solución logarítmica, o también cuando probamos todas las posibles soluciones de un problema que tiene muchas respuestas, para encontrar la mejor de ellas. 
+Por lo general esto se produce cuando en cada paso, en vez de reducirse la cantidad de respuestas posibles, se van duplicando, triplicando... es decir, lo contrario a una solución logarítmica, o también cuando probamos todas las posibles soluciones de un problema, que tiene muchas respuestas, para encontrar la mejor de ellas.
+
+En esta categoría usualmente algoritmos con complejidad **O(n!)**, está resulta cuando necesitamos iterar sobre la forma de organizar una serie de n elementos.
 
 | ![Brute force](https://upload.wikimedia.org/wikipedia/commons/2/2b/Bruteforce.gif) |
 | :--: |
 | Ejemplo gráfico de un algoritmo de fuerza bruta. [Wikipedia CC-BY-SA](https://es.m.wikipedia.org/wiki/Archivo:Bruteforce.gif)
 
+* Generar todos los posibles subconjuntos de un conjunto con **n** elementos. Un conjunto tiene **2^n** subconjuntos, luego habría que iterar para generar cada uno de esos subconjuntos. Por ejemplo, supongamos el conjunto S = { A, B, C } que tiene **2^3** subconjuntos (8), podríamos representar con 0 si un elemento no está y con 1 en caso contrario y obtener algo más o menos así:
+
+  | Iteración | Binario  | Subconjunto que representa |
+  |:---------:|:--------:|:--------------------------:|
+  | 1         | 000      | { }                        |        
+  | 2         | 001      | { C }                      |          
+  | 3         | 010      | { B }                      |          
+  | 4         | 011      | { B, C }                   |             
+  | 5         | 100      | { A }                      |          
+  | 6         | 101      | { A, C }                   |             
+  | 7         | 110      | { A, B }                   |             
+  | 8         | 111      | { A, B, C }                |                  
+  |           | ABC      |                            |
+
 * Algoritmos de fuerza bruta, es decir, en los que se prueban todos los posibles caminos para ver cuál de ellos lleva a la respuesta correcta.
 
-* Este problema de Code Forces: [Shower Line](https://codeforces.com/contest/431/problem/B){:target='_blank'}
+* Este problema de Code Forces: [Shower Line](https://codeforces.com/contest/431/problem/B){:target='_blank'} que está relacionado con encontrar la mejor forma de organizar una fila de personas. Una fila puede organizarse de **n!** formas diferentes.
 
-  ```python
+  ```python  
   def pseudocodigo_de_showerline(v):
       respuesta = 0
       # Para cada posible orden de la fila
