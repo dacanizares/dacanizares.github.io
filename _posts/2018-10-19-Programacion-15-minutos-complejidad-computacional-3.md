@@ -78,7 +78,7 @@ Este tipo de soluciones también escalan correctamente y por lo general tienen m
 
 > Cuando un algoritmo itera **n**, **2n**, **3n**, o en general **cn** (siendo **c** constante) sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad [lineal](https://es.wikipedia.org/wiki/Funci%C3%B3n_lineal){:target='_blank'}, que está representada por **O(n)**
 
-Para que un algoritmo esté en esta categoría debe iterar una cantidad constante de veces sobre la entrada. Como veremos en el próximo capítulo, esto significa NO tener ciclos anidados.
+Para que un algoritmo esté en esta categoría debe iterar una cantidad constante de veces sobre la entrada. Como veremos en el próximo capítulo, esto significa NO tener ciclos anidados. Por ejemplo:
   
   * Búsqueda lineal.
 
@@ -105,7 +105,7 @@ Para que un algoritmo esté en esta categoría debe iterar una cantidad constant
         return mayor
     ```
 
-  * Hallar la sumatoria de los primeros **n** enteros sumando *1 + 2 + 3 ... n* dentro de un ciclo. Este es el mismo problema que resolvimos en tiempo constante, sólo que ahora resulto con un algoritmo menos optimizado.
+  * Hallar la sumatoria de los primeros **n** enteros sumando *1 + 2 + 3 ... n* dentro de un ciclo. Este es el mismo problema que resolvimos en tiempo constante, sólo que ahora aplicando un algoritmo menos optimizado.
 
     ```python
     def sumatoria_hasta_n(n):
@@ -126,7 +126,7 @@ Este tipo de soluciones, en general, funcionan muy bien en aplicaciones de tiemp
 
 > Cuando un algoritmo itera **n²**, **n³** o en general **n^c** sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad polinomial, que está representada por **O(n^c)**
 
-* **O(n²)**: Se da cuando tenemos que recorrer dos veces los datos para encontrar la respuesta o cuando trabajamos con matrices (ya que usualmente son de tamaño **n x n**). Por ejemplo,
+* **O(n²)**: Lo encontramos cuando tenemos que comparar cada uno de los datos de entrada con todos los demás que la conforman o cuando trabajamos con matrices (ya que usualmente son de tamaño **n x n**). Por ejemplo,
 
   | ![Bubble sort](https://upload.wikimedia.org/wikipedia/commons/archive/5/54/20140912160203%21Sorting_bubblesort_anim.gif) |
   | :--: | 
@@ -197,7 +197,7 @@ Por lo general esto se produce cuando en cada paso, en vez de reducirse la canti
 * Este problema de Code Forces: [Shower Line](https://codeforces.com/contest/431/problem/B){:target='_blank'}
 
   ```python
-  def pseudocodigo_de_showline(v):
+  def pseudocodigo_de_showerline(v):
       respuesta = 0
       # Para cada posible orden de la fila
       for orden in posibles_ordenes(fila):
