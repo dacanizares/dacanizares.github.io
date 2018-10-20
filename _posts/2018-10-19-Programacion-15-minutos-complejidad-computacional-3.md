@@ -10,28 +10,43 @@ tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5b4575cf407d6f3
 {:.img-footer}
 [Photo under Public Domain](https://unsplash.com/photos/E0AHdsENmDg){:target='_blank'}
 
-En este capítulo exploraremos las diferentes funciones de crecimiento que probablemente vayamos a encontrarnos en nuestra carrera como programadores.
+En este capítulo exploraremos las principales funciones de crecimiento que podemos encontrarnos en nuestra carrera como programadores.
 
 <!--more-->
 
 
 # Órdenes de crecimiento más comunes
 
-Si bien la **Notación Big O** puede utilizarse con cualquier función matemática, como programadores lo más común es encontrarse con alguna de los siguientes casos:
+Recordemos que la **Notación Big O** es una herramienta que nos permite representar los órdenes de crecimiento de nuestros algoritmos, siendo estos *la forma en que medimos la cantidad aproximada de pasos que un algoritmo ejecuta de acuerdo a una entrada recibida*
+
+Como programadores lo más común es encontrarse con alguno de los siguientes órdenes de crecimiento:
 
 ## Crecimiento constante
 
-> Cuando un algoritmo puede dar la respuesta utilizando la misma cantidad de pasos, independiente del tamaño de la entrada **n**, decimos que tiene una complejidad constante, que está representada por **O(1)**
+> Cuando un algoritmo puede dar la respuesta utilizando la misma cantidad de pasos independiente del tamaño de la entrada, decimos que tiene una complejidad constante, que está representada por **O(1)**
 
 En general, son problemas solucionables mediante una única instrucción o mediante operaciones matemáticas. Por ejemplo:
 
 * Calcular la sumatoria de los primeros **n** enteros usando la fórmula **n (n + 1) / 2**.
 
+  ``` python  
+  def sumatoria_hasta_n_tiempo_constante(n):
+    # Simplemente aplicamos la operación matemática
+    # correspondiente
+    return n * (n + 1) / 2
+  ```
+
 * Encontrar el elemento en una posición **x** de un vector **v** (Sería simplemente acceder **v[x]**, lo que se consigue con vector en tiempo constante -en otras estructuras de datos como los mapas este tiempo puede variar).
+
+   ``` python  
+  def obtener_posicion_i_del_vector_v(v, i):
+    return v[i]
+  ```
+  
 
 * Este problema de Code Forces [Theatre Square](https://codeforces.com/problemset/problem/1/A){:target='_blank'}
 
-Este tipo de soluciones son deseables ya que en términos generales podemos decir que son **algoritmos óptimos**, que escalan bien con el tamaño de la entrada y que normalmente tienen muy buen desempeño (son muy rápidos).
+Este tipo de soluciones son deseables ya que en términos generales podemos decir que son **algoritmos óptimos**, que escalan bien con el tamaño de la entrada y que normalmente tienen muy buen desempeño, es decir, que son muy rápidos.
 
 ## Crecimiento logarítmico
 
@@ -41,48 +56,117 @@ Este tipo de soluciones son deseables ya que en términos generales podemos deci
 
 > Cuando un algoritmo en cada iteración descarta la mitad, un tercio o en general una fraccion de las posibles soluciones, decimos que tiene una complejidad logarítmica, que está representada por **O(log_b(n))**.
 
+Recordemos la explicación de la búsqueda binaria del capítulo anterior, en la que en cada paso el algoritmo **descartaba la mitad de los datos de un directorio**, de manera que el programa podía llegar rápidamente a la respuesta.
+
 * **log(n)**: si no se especifica la base, los programadores consideramos que la base del logarítmo es 2, lo que quiere decir que en cada paso se descarta la mitad de las posibilidades. 
 
-  * En general recorridos en árboles binarios.
+  * La solución más popular de este tipo es la **búsqueda binaria** (en el capítulo anterior está el código en Python), que puede usarse por ejemplo, en este problema de Code Forces: [Worms](https://codeforces.com/contest/474/problem/B){:target='_blank'}.
 
-  * La solución más popular de este tipo es la **búsqueda binaria**, que puede usarse por ejemplo, en este problema de Code Forces: [Worms](https://codeforces.com/contest/474/problem/B){:target='_blank'}.
+* Funciones de crecimiento con logarítmos de otras bases, si bien existen, no son tan comunes de encontrar en programación por lo que pasaremos de largo sobre ellos.
 
-* Funciones de crecimiento con logarítmos de otras bases, si bien existen, no son muy comunes de encontrar en programación.
+Este tipo de soluciones también escalan correctamente y por lo general tienen muy buen desempeño. Recordemos la tabla comparativa de la cantidad de pasos para encontrar un elemento en un arreglo usando búsquedas binaria y lineal:
 
-Este tipo de soluciones también escalan correctamente y por lo general tienen muy buen desempeño.
+| Tamaño de la entrada (n) | Búsqueda Lineal  | Búsqueda Binaria   |
+|---------                 |---------         |---------           |
+|10                        | 10               | 4                  |
+|1,000                     | 1,000            | 10                 |
+|100,000                   | 100,000          | 17                 |
+|1,000,000                 | 1,000,000        | 20                 |
+|10,000,000                | 10,000,000       | 24                 |
 
 ## Funciones de crecimiento lineal
 
-> Cuando un algoritmo  itera una cantidad [lineal](https://es.wikipedia.org/wiki/Funci%C3%B3n_lineal){:target='_blank'} de veces sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad lineal, que está representada por **O(n^c)**
+> Cuando un algoritmo itera **n**, **2n**, **3n**, o en general **cn** (siendo **c** constante) sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad [lineal](https://es.wikipedia.org/wiki/Funci%C3%B3n_lineal){:target='_blank'}, que está representada por **O(n)**
 
-* **O(n)**: Se cuando **iteramos** una única vez sobre la entrada o una **cantidad constante de veces**.
+Para que un algoritmo esté en esta categoría debe iterar una cantidad constante de veces sobre la entrada. Como veremos en el próximo capítulo, esto significa NO tener ciclos anidados.
   
   * Búsqueda lineal.
 
+    ```python
+    def buscar_x_en_vector(v, x):
+        # Recorremos todo el arreglo una vez
+        for numero in v:
+            if numero == x:
+                return True
+        return False
+    ```
+
   * Hallar el mayor elemento de un vector.
 
-  * Hallar la sumatoria de los primeros **n** enteros sumando *1 + 2 + 3 ... n* dentro de un ciclo.
+    ```python
+    def mayor_valor_en_vector(v):
+        # Iniciamos con el primer valor
+        mayor = v[0]
+        # Y recorremos el resto del arreglo una vez
+        for i in range(1, len(v)):
+            # Mirando si hay alguno mayor
+            if v[i] > mayor:
+                mayor = v[i]
+        return mayor
+    ```
 
-  * Este problema de Code Forces [Police Recruits](https://codeforces.com/contest/427/problem/A){:target='_blank'}  
+  * Hallar la sumatoria de los primeros **n** enteros sumando *1 + 2 + 3 ... n* dentro de un ciclo. Este es el mismo problema que resolvimos en tiempo constante, sólo que ahora resulto con un algoritmo menos optimizado.
 
+    ```python
+    def sumatoria_hasta_n(n):
+        # Iniciamos una variable para acumular la sumatoria       
+        suma = 0
+        # Y recorremos desde 1 hasta n
+        for i in range(1, n + 1):
+            # Sumando los numeros
+            suma += i
+        return suma
+    ```
 
-* **O(n²)**: Se da cuando tenemos que realizar **aproximadamente** n² operaciones. Por ejemplo,
+  * Este problema de Code Forces: [Police Recruits](https://codeforces.com/contest/427/problem/A){:target='_blank'}  
+
+Este tipo de soluciones, en general, funcionan muy bien en aplicaciones de tiempo real (como los videojuegos), siempre y cuando el tamaño de la entrada no sea exageradamente grande (cientos de miles máximo). De igual forma, en otro tipo de aplicaciones, cuando los datos llegan a *millones*, el desempeño del algoritmo se ve afectado.
+
+## Funciones de crecimiento polinomial
+
+> Cuando un algoritmo itera **n²**, **n³** o en general **n^c** sobre una entrada de tamaño **n** para obtener la respuesta, decimos que tiene una complejidad polinomial, que está representada por **O(n^c)**
+
+* **O(n²)**: Se da cuando tenemos que recorrer dos veces los datos para encontrar la respuesta o cuando trabajamos con matrices (ya que usualmente son de tamaño **n x n**). Por ejemplo,
 
   | ![Bubble sort](https://upload.wikimedia.org/wikipedia/commons/archive/5/54/20140912160203%21Sorting_bubblesort_anim.gif) |
   | :--: | 
   | *Bubble Sort [Wikipedia CC-BY-SA](https://commons.wikimedia.org/wiki/File:Sorting_bubblesort_anim.gif){:target='_blank'}* |
 
-    
-  
-    
-    * Organizar un vector usando bubble sort, ya que debemos recorrer todos los elementos y comparar cada uno de ellos con el resto de elementos (**n x n = n²**) .
 
-    * En general, operaciones con matrices.
+    * Organizar un vector usando bubble sort, ya que debemos recorrer todos los elementos y comparar cada uno de ellos con el resto de elementos (**n x n = n²**). 
+
+      ```python
+      def organizar_vector_con_bubblesort(v):
+          # Recorremos todos los valores
+          for i in range(n):
+              # Comparando cada uno de ellos 
+              # con todos los demás
+              for j in range(i + 1, n):
+                # Si el primero es mayor
+                if v[i] > v[j]:
+                  # Los intercambiamos
+                  v[i], v[j] = v[j], v[i]
+          return suma
+      ```
+
+    * En general, operaciones con matrices, como multiplicar una matriz por un número (lo que equivale a multiplicar cada uno de los valores de la matriz por ese número):
+
+      ```python
+       def multiplicar_matriz_por_numero(m, c):
+           # Recorremos todos los valores de la matriz
+           for i in range(m):
+               for j in range(len(m[i])):
+                 # Y los multiplicamos por c
+                 m[i][j] *= c
+           # Como las matrices funcionan por referencia,
+           # no es necesario retornar
+       ```
 
     * Este problema de Code Forces [Toy Cars](https://codeforces.com/contest/545/problem/A)
 
-Este tipo de soluciones funcionan muy bien en aplicaciones de tiempo real (como los videojuegos), siempre y cuando el tamaño de la entrada no sea exageradamente grande (cientos de miles máximo). De igual forma, en otro tipo de aplicaciones, cuando los datos llegan a *millones*, el desempeño del algoritmo se ve afectado.
+En esta categoria, el número de pasos con respecto al tamaño de la entrada comienza a escalar a proporciones muy grandes, de forma que lo ideal es aplicar este tipo de algoritmos con cuidado, teniendo presente que el performance y la escalabilidad del sistema pueden verse afectados con entradas de mayor tamaño.
 
+> Los siguientes son órdenes de crecimiento un poco más complejos, así que de momento sólo haremos una breve aproximación a ellos.
 
 ## Crecimiento pseudo-logarítmico
 
@@ -92,21 +176,17 @@ Este tipo de soluciones funcionan muy bien en aplicaciones de tiempo real (como 
 | :--: |
 | *Quick sort [Wikipedia CC-BY-SA](https://en.wikipedia.org/wiki/Quicksort#/media/File:Sorting_quicksort_anim.gif){:target='_blank'}* |
 
-* Merge Sort
-
-* Heap Sort
-
-* Quick Sort
+* Algoritmos optimizados de ordenamiento como Merge Sort, Heap Sort o Quick Sort.
 
 * En el problema [Worms](https://codeforces.com/contest/474/problem/B){:target='_blank'}, si tenemos en cuenta **toda** la entrada, estamos realizando **n** búsquedas binarias, una por cada caso de prueba. 
 
-Este tipo de soluciones tiene un comportamiento relativamente similar al de la categoria directamente anterior.
+Este tipo de soluciones tiene un comportamiento relativamente similar, aunque menos óptimo que el de las funciones de crecimiento **lineal**.
 
 ## Crecimiento exponencial
 
 > Cuando un algoritmo realiza **2^n**, **3^n** o en general **C^n** pasos para obtener la respuesta, decimos que tiene una complejidad exponencial, que está representada por **O(C^n)**
 
-Por lo general esto se produce cuando en cada paso, en vez de reducirse la cantidad de respuestas posibles, se van duplicando, triplicando... es decir, lo contrario a una solución logarítmica. 
+Por lo general esto se produce cuando en cada paso, en vez de reducirse la cantidad de respuestas posibles, se van duplicando, triplicando... es decir, lo contrario a una solución logarítmica, o también cuando probamos todas las posibles soluciones de un problema que tiene muchas respuestas, para encontrar la mejor de ellas. 
 
 | ![Brute force](https://upload.wikimedia.org/wikipedia/commons/2/2b/Bruteforce.gif) |
 | :--: |
@@ -116,12 +196,36 @@ Por lo general esto se produce cuando en cada paso, en vez de reducirse la canti
 
 * Este problema de Code Forces: [Shower Line](https://codeforces.com/contest/431/problem/B){:target='_blank'}
 
+  ```python
+  def pseudocodigo_de_showline(v):
+      respuesta = 0
+      # Para cada posible orden de la fila
+      for orden in posibles_ordenes(fila):
+          # Calculamos la felicidad de ese órden específico
+          felicidad = .. + .. + ..
+          respuesta = max(respuesta, felicidad)
+      return suma
+  ```
 
-Este tipo de respuestas son fáciles de encontrar y de programar, pero tienen graves problemas de desempeño ya que la cantidad de pasos para encontrar la respuesta crece muy rápidamente.
+
+Este tipo de respuestas son **relativamente** fáciles de encontrar y de programar, pero tienen graves problemas de desempeño ya que la cantidad de pasos para encontrar la respuesta crece muy rápidamente.
+
+## Comparativo general
+
+En la siguiente tabla podemos ver la cantidad de pasos que debería realizar un algoritmo de cada órden de crecimiento para dar la respuesta correcta a una entrada de tamaño **n**, en el peor de los casos:
+
+| Tamaño de la entrada (n) | O(1) | O(log(n) | O(n)     | O(n log(n) | O(n²)          | O(2^n)         |
+|---------                 |------|--------  |----------|------------|----------------|----------------|
+|10                        | 1    |  4       |10        |40          | 100            | 1024           |
+|1,000                     | 1    |  10      |1,000     |10,000      | 1'000,000      | 1,071 x 10^310 |  
+|100,000                   | 1    |  17      |100,000   |1'700,000   | 10 mil millones| Desbordamiento |
+|1,000,000                 | 1    |  20      |1,000,000 |20'000,000  | 10 billones    | Desbordamiento |  
+
+Como podemos ver, algunos valores escalan tan rápidamente que incluso en computadores modernos es imposible calcularlos. Así que la próxima vez, antes de sentarse a programar es bueno tener en consideranción todo lo que hemos aprendido sobre **Complejidad Computacional** para garantizar que nuestros algoritmos no sólo funcionan si no que lo hacen de forma eficiente.
 
 ## Comentarios finales de este capítulo
 
-Cuando abrimos los problemas de **Code Forces**, podemos ver que en cada uno de ellos el tamaño de la entrada está especificado, esto le permite a programadores bien entrenados, determinar a priori que tipo de algoritmos usar. Por ejemplo para Shower Line, el problema de fuerza bruta, la entrada máxima es una fila de 5 personas mientras que para el problema de tiempo constante la entrada máxima es de 1.000'000.000.
+Cuando abrimos los problemas de **Code Forces**, podemos ver que en cada uno de ellos el tamaño de la entrada está especificado, esto le permite a programadores entrenados determinar a priori que tipo de algoritmos usar. Por ejemplo para Shower Line, el problema de fuerza bruta, la entrada máxima es una fila de 5 personas mientras que para el problema de tiempo constante la entrada máxima es de 1.000'000.000.
 
 Por otro lado, cuando hablamos de programa reales los límites son aún más difusos, sin embargo todo lo que hemos aprendido es una guía que bien utilizada, puede ayudarnos a tomar mejores decisiones cuando estemos programando.
 
