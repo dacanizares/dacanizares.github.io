@@ -14,7 +14,7 @@ En este capítulo exploraremos las principales funciones de crecimiento que pode
 
 <!--more-->
 
-> Este capítulo será un poco más largo de lo normal, pero prefiero no dividirlo en dos partes, para no romper con la estructura lógica que agrupa los conceptos que hoy vamos a aprender. ¿Listos? ¡Vamos!
+> Esta parte será un poco más extensa de lo normal, pero prefiero no dividirlo en dos partes, para no romper con la estructura lógica que agrupa los conceptos que hoy vamos a aprender. ¿Listos? ¡Vamos!
 
 # Órdenes de crecimiento más comunes
 
@@ -53,7 +53,7 @@ Este tipo de soluciones son deseables ya que en términos generales podemos deci
 
 | ![Binaria](https://theproductiveprogrammer.blog/013/binary-search.png) |
 | :--: |
-| *Imagen de [Top Coder](https://www.topcoder.com/blog/binary-stride-a-variant-on-binary-search/){:target='_blank'}. Usada sólo con fines educativos.*  |
+| *Imagen de [Top Coder](https://dacanizares.github.io/images/binary-search.png){:target='_blank'}. Usada sólo con fines educativos.*  |
 
 > Cuando un algoritmo en cada iteración descarta la mitad, un tercio o en general una fraccion de las posibles soluciones, decimos que tiene una complejidad logarítmica, que está representada por **O(log_b(n))**.
 
