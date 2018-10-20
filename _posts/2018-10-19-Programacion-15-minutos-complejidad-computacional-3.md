@@ -32,16 +32,16 @@ En general, son problemas solucionables mediante una única instrucción o media
 
   ``` python  
   def sumatoria_hasta_n_tiempo_constante(n):
-    # Simplemente aplicamos la operación matemática
-    # correspondiente
-    return n * (n + 1) / 2
+      # Simplemente aplicamos la operación matemática
+      # correspondiente
+      return n * (n + 1) / 2
   ```
 
 * Encontrar el elemento en una posición **x** de un vector **v** (Sería simplemente acceder **v[x]**, lo que se consigue con vector en tiempo constante -en otras estructuras de datos como los mapas este tiempo puede variar).
 
    ``` python  
   def obtener_posicion_i_del_vector_v(v, i):
-    return v[i]
+      return v[i]
   ```
   
 
