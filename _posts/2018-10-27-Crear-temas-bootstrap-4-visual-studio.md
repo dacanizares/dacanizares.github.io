@@ -10,7 +10,7 @@ tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5b4575cf407d6f3
 {:.img-footer}
 [Photo under Public Domain](https://unsplash.com/photos/hpjSkU2UYSU){:target='_blank'}
 
-Aprenderemos como crear fácilmente temas para Bootstrap 4 creando una aplicación ASP Core 2.1 desde Visual Studio.
+Aprenderemos como crear fácilmente temas para Bootstrap 4 desde una aplicación ASP Core 2.1 contruída en Visual Studio.
 
 <!--more-->
 
