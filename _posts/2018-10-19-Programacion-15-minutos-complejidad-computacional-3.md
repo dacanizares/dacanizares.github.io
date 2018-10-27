@@ -3,7 +3,7 @@ published: true
 title: Programación en 15 minutos - Complejidad Computacional (Parte 3)
 layout: post
 license: ccbysa
-tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5b4575cf407d6f33cc0e9d88
+tsocurl: https://thescienceofcode.azurewebsites.net/Articles/Show/5bcb637b44064a607035298b
 ---
 ![Programación en 15 minutos - Complejidad Computacional 3]({{ site.baseurl }}/images/complexity-3.jpg)
 
