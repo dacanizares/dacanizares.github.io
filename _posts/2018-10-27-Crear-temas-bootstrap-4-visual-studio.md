@@ -32,7 +32,7 @@ Para nuestro caso vamos a usar un nuevo kit que permite utilizar fácilmente *Bo
 
 ### Descargando Bootstrap4.VisualStudio.StarterKit
 
-* Navegamos hasta https://github.com/equilaterus/Bootstrap4.VisualStudio.StarterKit/ y descargamos el repositori como ZIP.
+* Navegamos hasta https://github.com/equilaterus/Bootstrap4.VisualStudio.StarterKit/ y descargamos el repositorio como ZIP.
 
   ![Download repo](https://equilaterus.github.io/assets/img/bootstrap4starterkit/Download.PNG)
 
