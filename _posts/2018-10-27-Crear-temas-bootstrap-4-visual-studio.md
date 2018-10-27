@@ -14,7 +14,7 @@ Aprenderemos como crear fácilmente temas para Bootstrap 4 desde una aplicación
 
 <!--more-->
 
-Para nuestro caso vamos a usar un nuevo kit que permite utilizar fácilmente *Bootstrap 4* desde Visual Studio con ASP Core.
+Para nuestro caso vamos a usar un nuevo kit que permite integrar fácilmente *Bootstrap 4* con NPM desde Visual Studio con ASP Core para la creación de temas personalizados.
 
 ### Pre-requisitos
 
@@ -40,7 +40,7 @@ Para nuestro caso vamos a usar un nuevo kit que permite utilizar fácilmente *Bo
 
   ![Open folder](https://equilaterus.github.io/assets/img/bootstrap4starterkit/OpenFolder.PNG)
 
-* Copiamos los archivos que están dentro del ZIP que previamente descargamos desde el repositorio. Se nos preguntará para sobreescribir algunos archivos, decimos que sí. Al final debería verse más o menos así:
+* Copiamos los archivos que están **dentro del ZIP en la carpeta kit** que previamente descargamos desde el repositorio. Se nos preguntará para sobreescribir algunos archivos, decimos que sí. Al final debería verse más o menos así:
 
   ![Copy files](https://equilaterus.github.io/assets/img/bootstrap4starterkit/CopyFiles.PNG)
 
