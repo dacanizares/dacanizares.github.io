@@ -1,6 +1,8 @@
 
 # My personal Blog
 
+[![Build Status](https://travis-ci.org/dacanizares/dacanizares.github.io.svg?branch=master)](https://travis-ci.org/dacanizares/dacanizares.github.io) 
+
 Based on Jekyll Now. Hosted on GitHub Pages at https://dacanizares.github.io/.
 
 ## How to run locally
