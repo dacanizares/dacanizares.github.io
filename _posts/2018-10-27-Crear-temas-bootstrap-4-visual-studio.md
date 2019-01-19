@@ -26,7 +26,7 @@ Para nuestro caso vamos a usar un nuevo kit que permite integrar fácilmente *Bo
 
 * Crearemos un nuevo proyecto Web en Visual Studio 2017. El *StarterKit* que usaremos está optimizado para aplicaciones **ASP Core 2.1 MVC**, puedes encontrar diferencias en esta guía si utilizas otras versiones de ASP Core. *El Kit no es compatible con ASP Net Framework*.
 
-* Vamos a limpiar algunos archivos innecesarios, asi que puede remover las siguientes carpetas:
+* Vamos a limpiar algunos archivos innecesarios, asi que podemos remover las siguientes carpetas:
 
   ![Remove these folders](https://equilaterus.github.io/assets/img/bootstrap4starterkit/RemoveFiles.PNG)
 
@@ -60,7 +60,7 @@ Para nuestro caso vamos a usar un nuevo kit que permite integrar fácilmente *Bo
 
   ![Activate Bundle on build](https://equilaterus.github.io/assets/img/bootstrap4starterkit/BundleOnBuild.PNG)
 
-* Ahora sòlo es cuestión de modificar estos archivos para crear un tema único e increíble.
+* Ahora sólo es cuestión de modificar estos archivos para crear un tema único e increíble.
 
   ![User files](https://equilaterus.github.io/assets/img/bootstrap4starterkit/UserFiles.PNG)
 
