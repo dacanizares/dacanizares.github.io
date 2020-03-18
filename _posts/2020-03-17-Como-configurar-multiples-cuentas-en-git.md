@@ -7,7 +7,7 @@ tsocurl: https://thescienceofcode.azurewebsites.net/Articles/Show/5e71a2076dc6a2
 ---
 ![Cómo configurar múltiples cuentas en GIT]({{ site.baseurl }}/images/github-gitlab-ssh.png)
 
-A todos nos ha pasado que tenemos nuestros trabajos personales en un repositorio, por ejemplo *Github*, pero en el trabajo usan *Gitlab* (o cualquier otro). Hoy voy a explicar cómo configurar nuestra máquina para poder acceder a ambos desde nuestro computador sin necesidad de estar cambiando constantemente de cuentas.
+A todos nos ha pasado que tenemos nuestros proyectos personales en un repositorio, por ejemplo *Github*, pero en el trabajo usan *Gitlab* (o cualquier otro proveedor similar). Hoy voy a explicar cómo configurar nuestra máquina para poder acceder a ambos desde nuestro computador sin necesidad de estar cambiando constantemente de cuentas.
 
 <!--more-->
 
@@ -31,14 +31,13 @@ La guía aplica tanto para *Windows* como para *Linux*.
    ~/.ssh
    ```
 
-4. Crear una nueva key ssh.
+4. Crear una nueva key ssh. **Importante**: Cuando el comando ejecutado pida un *passphrase*, como se supone que estás en un computador de confianza, puedes dar ENTER y dejar la llave sin *passphrase*, de esta forma te ahorrarás tener que estarla ingresando constantemente (o en su defecto tener que configurar el *ssh-agent*).
 
    ```bash
    # Windows 
    ssh-keygen.exe
    # Cuando pregunte por el filename, por ejemplo:
-   file name: id_rsa_gitlab
-   # Cuando pida un 'passphrase' ingresa una contraseña. No la olvides.
+   file name: id_rsa_gitlab   
    
    # Linux
    ~/.ssh-keygen -t rsa -b 4096
@@ -46,13 +45,6 @@ La guía aplica tanto para *Windows* como para *Linux*.
    ```
 
    > Para el nombre del archivo, es recomendable usar algo descriptivo como: *id_rsa_**PROVEEDOR**_**CUENTA***, donde los proveedores pueden ser github, gitlab, azurerepos, etc. Y la cuenta deberías usarlo sólo en caso de tener más de una por proveedor. Por ejemplo: *id_rsa_github*, *id_rsa_gitlab*, *id_rsa_github_work*, *id_rsa_gitlab_work*, etc.
-
-   Si quieres, puedes ejecutar el siguiente comando para    evitar que se te esté preguntando constantemente el    passphrase:
-   
-    ```bash
-    eval `ssh-agent -s`
-    ssh-add id_rsa_gitlab
-    ```
 
 5. Se crearán dos archivos, uno de ellos con extensión *.pub* (de public), abre el archivo y copia todo su contenido para agregar la clave al proveedor respectivo:
 
