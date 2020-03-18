@@ -3,7 +3,7 @@ published: true
 title: Cómo configurar múltiples cuentas en GIT
 layout: post
 license: ccby
-#tsocurl: http://thescienceofcode.azurewebsites.net/Articles/Show/5b4575cf407d6f33cc0e9d88
+tsocurl: https://thescienceofcode.azurewebsites.net/Articles/Show/5e71a2076dc6a240f8dbe934
 ---
 ![Cómo configurar múltiples cuentas en GIT]({{ site.baseurl }}/images/github-gitlab-ssh.png)
 
