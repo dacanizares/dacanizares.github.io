@@ -51,7 +51,7 @@ La guía aplica tanto para *Windows* como para *Linux*.
    
     ```bash
     eval `ssh-agent -s`
-    ssh-add id_rsa_gitlab_uproar
+    ssh-add id_rsa_gitlab
     ```
 
 5. Se crearán dos archivos, uno de ellos con extensión *.pub* (de public), abre el archivo y copia todo su contenido para agregar la clave al proveedor respectivo:
