@@ -11,7 +11,7 @@ A todos nos ha pasado que tenemos nuestros proyectos personales en un repositori
 
 <!--more-->
 
-La guía aplica tanto para *Windows* como para *Linux*. Si usas [Github Desktop](https://desktop.github.com/) [puedes ver estas guías](https://github.com/desktop/desktop/tree/development/docs/integrations).
+La guía aplica tanto para *Windows* como para *Linux* y no tiene límites en la cantidad de cuentas por proveedor. Si usas [Github Desktop](https://desktop.github.com/), [puedes ver estas guías](https://github.com/desktop/desktop/tree/development/docs/integrations) que son más sencillas, aunque tienen la limitación de una cuenta por proveedor.
 
 > Puedes tener una cuenta configurada normalmente y usar este método para añadir las demás. Por ejemplo, si usas Github y ya lo tienes configurado, sólo debes seguir este procedimiento para las cuentas adicionales que vayas a incluír.
 
