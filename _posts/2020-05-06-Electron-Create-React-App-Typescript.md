@@ -7,7 +7,7 @@ tsocurl: https://thescienceofcode.azurewebsites.net/Articles/Show/5e71a2076dc6a2
 ---
 ![Electron + CreateReactApp + Typescript]({{ site.baseurl }}/images/electron-cra-ts.png)
 
-Esta es la guía definitiva y breve para comenzar a desarrollar en **Electron** usando **Create React App** y **Typescript**. La ventaja de este enfoque es que nos permite utilizar todos los conocimientos de desarrollo web que tengamos, para iniciar ágilmente en la programación de aplicaciones de escritorio multiplataforma.
+Esta es la guía definitiva (y breve) para comenzar a programar en **Electron** usando **Create React App** y **Typescript**. Con este stack, podremos iniciar ágilmente a construir aplicaciones de escritorio multiplataforma, aprovechando los conocimientos previos que tengamos sobre programación web.
 
 Son únicamente 7 breves pasos. ¡Comencemos!
 
@@ -23,7 +23,7 @@ npx create-react-app my-app --template typescript
 
 ## Paso 2: Descargar dependencias adicionales
 
-A continuación, vamos a descargar una serie de librerías necesarias para covertir nuestra aplicación web en una aplicación de escritorio con **Electron**. Para eso, se deben ejecutar los siguientes comandos:
+A continuación, vamos a descargar una serie de librerías necesarias para convertir nuestra aplicación web en una  de escritorio con **Electron**. Para eso, se deben ejecutar los siguientes comandos:
 
 ```
 npm install --save-dev @rescripts/cli
@@ -59,7 +59,9 @@ Es importante resaltar que la línea **electron-pack** se puede modificar así:
 * *electron-builder build -l* para generar los builds para  linux.
 * O cualquier otra combinación de la letras *wml*.
 
-Es probable que necesites un sistema operativo diferente para compilar para algunos de los destinos, así que en caso de recibir un error al momento de empaquetar la aplicación, deberíamos quitar aquellos sistemas para los que no podemos generar los ejecutables desde nuestra máquina.
+Es probable que se necesite un sistema operativo diferente al compilar para algunos de los destinos. En general, deberiamos dejar únicamente la letra de nuestro sistema operativo. 
+
+Para más información sobre compilaciones multiplataforma [seguir este enlace](https://www.electron.build/multi-platform-build).
 
 ## Paso 4: Añadir configuración adicional al package.json
 
@@ -97,7 +99,7 @@ El siguiente paso, consiste en añadir unas secciones al mismo archivo que estab
 }
 ```
 
-Podemos personalizar los datos de la aplicación y nuestros. Si hay alguna duda en este paso, [aquí hay un ejemplo de cómo debería quedar el package.json](https://github.com/dacanizares/Electron-CreateReactApp-TypeScript/blob/steps/package.json) después de todos los cambios; NO debemos reemplazar todo el contenido con el ejemplo, ya que las versiones de nuestros paquetes podrían diferir.
+Podemos personalizar los datos de la aplicación y del autor. Si hay alguna duda en este paso, [aquí hay un ejemplo de cómo debería quedar el package.json](https://github.com/dacanizares/Electron-CreateReactApp-TypeScript/blob/steps/package.json) después de todos los cambios; NO debemos reemplazar todo el contenido con el ejemplo, ya que las versiones de nuestros paquetes podrían diferir.
 
 ## Paso 5: Añadir .rescriptsrc.js
 
@@ -168,7 +170,7 @@ app.on('activate', () => {
 
 ```
 
-En este punto ya deberíamos tener una aplicación React que se ejecuta con Electron como si fuera una aplicación de escritorio. Para ejecutar en modo de desarrollo (con hot-reloading incluído), podemos usar el siguiente comando: 
+En este punto ya deberíamos tener una aplicación React que arranca con Electron como si fuera una aplicación de escritorio. Para ejecutar en modo de desarrollo (con hot-reloading incluído), podemos usar el siguiente comando: 
 
 ```bash
 npm run electron-dev
@@ -186,7 +188,7 @@ npm run electron-pack
 
 ## Instrucciones finales
 
-* Si estamos usando GIT y queremos evitar que los archivos generados al empaquetar la versión de producción suban a nuestro repositorio se debe añadir la siguiente línea al *.gitignore*.
+* Si estamos usando GIT y queremos evitar que los archivos generados al empaquetar la versión de producción suban a nuestro repositorio se debe añadir la siguiente línea al *.gitignore*:
 
   ```
   /dist
@@ -195,7 +197,7 @@ npm run electron-pack
 
 * Para generar la versión de producción estamos usando [electron-builder](https://www.electron.build/), en las modificaciones que hicimos al package.json añadimos algunas configuraciones básicas, pero en la documentación oficial hay más posibilidades de personalización sobre los instaladores o ejecutables finales que se van a crear.
 
-* Finalmente es bueno resaltar que podemos reutilizar la gran mayoría de nuestros conocimientos, ya que lo único que estamos haciendo es embeber una aplicación web en una ventana de escritorio (a la que podemos extender y añadir funciones propias de una aplicación nativa).
+* Finalmente es bueno resaltar que podemos reutilizar la gran mayoría de nuestros conocimientos, ya que lo único que estamos haciendo es embeber una aplicación web en una ventana de escritorio (a la que podemos extender con funciones propias de una aplicación nativa).
 
 
 Esta guía está basada en los pasos que propone [este tutorial](https://www.codementor.io/@randyfindley/how-to-build-an-electron-app-using-create-react-app-and-electron-builder-ss1k0sfer), he intentado ser lo más breve posible así como añadir algunas correciones y mejoras adicionales.
