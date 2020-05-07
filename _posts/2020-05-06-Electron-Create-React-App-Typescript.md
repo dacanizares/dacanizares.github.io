@@ -3,7 +3,7 @@ published: true
 title: Guía definitiva - Electron + CreateReactApp + Typescript
 layout: post
 license: ccby
-tsocurl: https://thescienceofcode.azurewebsites.net/Articles/Show/5e71a2076dc6a240f8dbe934
+tsocurl: https://thescienceofcode.azurewebsites.net/Articles/Show/5eb3627bb7ec7c4964d32c76
 ---
 ![Electron + CreateReactApp + Typescript]({{ site.baseurl }}/images/electron-cra-ts.png)
 
