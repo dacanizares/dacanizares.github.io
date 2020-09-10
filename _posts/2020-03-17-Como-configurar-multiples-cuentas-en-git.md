@@ -7,11 +7,11 @@ tsocurl: https://thescienceofcode.azurewebsites.net/Articles/Show/5e71a2076dc6a2
 ---
 ![Cómo configurar múltiples cuentas en GIT]({{ site.baseurl }}/images/github-gitlab-ssh.png)
 
-A todos nos ha pasado que tenemos nuestros proyectos personales en un repositorio, por ejemplo *Github*, pero en el trabajo usan *Gitlab* (o cualquier otro proveedor similar). Hoy voy a explicar cómo configurar nuestra máquina para poder acceder a ambos desde nuestro computador sin necesidad de estar cambiando constantemente de cuentas.
+Vamos a explicar cómo configurar nuestra máquina para poder acceder a varios repositorios Git, usando diferentes credenciales entre ellos, sin necesidad de estar cambiando constantemente de cuentas.
 
 <!--more-->
 
-La guía aplica tanto para *Windows* como para *Linux* y no tiene límites en la cantidad de cuentas por proveedor. Si usas [Github Desktop](https://desktop.github.com/), [puedes ver estas guías](https://github.com/desktop/desktop/tree/development/docs/integrations) que son más sencillas, aunque tienen la limitación de una cuenta por proveedor.
+La guía aplica tanto para *Windows* como para *Linux* y no tiene límites en la cantidad de cuentas por proveedor. Si usas [Github Desktop](https://desktop.github.com/), [puedes ver estas guías](https://github.com/desktop/desktop/tree/development/docs/integrations) que son más sencillas.
 
 > Puedes tener una cuenta configurada normalmente y usar este método para añadir las demás. Por ejemplo, si usas Github y ya lo tienes configurado, sólo debes seguir este procedimiento para las cuentas adicionales que vayas a incluír.
 
