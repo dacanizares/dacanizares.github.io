@@ -27,6 +27,8 @@ This is working
 ```cpp
 int main()
 {
+    int a = 0;
+    string b = "Hello";
     return 0;    
 }
 ```
